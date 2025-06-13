@@ -29,10 +29,9 @@ section#banner{
 }
 section#Noticias{
 	width: 1100px;
-      height:auto
+      height:auto;
       margin: 0 auto;
-      border: 1px solid black;
-	
+      border: 1px solid black;	
 }
 section#noticias ul li{
   list-style:none;
@@ -48,10 +47,20 @@ box-shadow: 5px 0px 0px 0px #00000030;
 }
 section#noticias .categoria{
 text-align: center;
+background: #900;
+color: #fff;
+display: block;
+padding: 5px 0;
 }
 section#noticias h2{
 font-size: 35px;
 color: #333333
 text-align: center;
+}
+section#noticias h3{
+text-align: center;
+font-size: 35px;
+font-family: arial;
+text-transform: uppercase;
 }
   
