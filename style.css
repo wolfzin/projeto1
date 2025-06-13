@@ -18,7 +18,7 @@ header nav ul li a{
 	color: #333;
 }
 header nav ul li a:hover{
-	color: yellow;
+	color: purple;
 }
 header img{
 	height: 100%;
@@ -30,20 +30,17 @@ section#banner{
 section#Noticias{
 	width: 1100px;
       height:auto;
-      margin: 0 auto;
-      border: 1px solid black;	
+      margin: 0 auto;	
 }
 section#noticias ul li{
   list-style:none;
   width: 350px;
   height: 350px;
-  background:gray ;
 }
 section#noticias img{
 text-align: center;
-height: 100px;
+height: 200px;
 width: 100%
-box-shadow: 5px 0px 0px 0px #00000030;
 }
 section#noticias .categoria{
 text-align: center;
@@ -54,7 +51,7 @@ padding: 5px 0;
 }
 section#noticias h2{
 font-size: 35px;
-color: #333333
+color: #333333;
 text-align: center;
 }
 section#noticias h3{
@@ -62,5 +59,19 @@ text-align: center;
 font-size: 35px;
 font-family: arial;
 text-transform: uppercase;
+}
+section#noticias ul li a{
+text-align:center;
+font-size: 19px;
+color:white;
+background:red;
+display:block;
+padding: 5px 0;
+
+}
+
+
+body{
+background:gray;
 }
   
